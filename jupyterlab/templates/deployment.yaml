@@ -31,7 +31,8 @@ spec:
             - name: http
               containerPort: 8888 
               protocol: TCP
-          command: ["jupyter lab --allow-root --ip 0.0.0.0 --NotebookApp.password=sha1:8eb758ccdc29:854cb702cd87af9924cca8146a990ffa36888a8d"]
+          args: ["jupyter lab --allow-root --ip 0.0.0.0 --NotebookApp.password=sha1:8eb758ccdc29:854cb702cd87af9924cca8146a990ffa36888a8d"]
+          command: ["/bin/bash -c"]
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
