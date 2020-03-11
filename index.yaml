@@ -3,12 +3,12 @@ entries:
   jupyterlab:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-03-11T14:27:50.304701574+08:00"
+    created: "2020-03-11T17:27:14.073755024+08:00"
     description: A Helm chart for Kubernetes
-    digest: 9fbb0dd54948d090aa2d076f397c545ed8514f3c961b40ee020df5fdf08abbc0
+    digest: 5428dedd3c5c7c296d57f35a395a10c5a383e217c446ab3437fc7074518497dc
     name: jupyterlab
     type: application
     urls:
     - https://lavkhannaiag.github.io/charts/jupyterlab/jupyterlab-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-11T14:27:50.303065986+08:00"
+generated: "2020-03-11T17:27:14.072139341+08:00"
