@@ -69,3 +69,5 @@ tolerations: []
 affinity: {}
 
 password:
+
+s3BucketName:
